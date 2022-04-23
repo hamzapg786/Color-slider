@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&family=Poppins:wght@100;200;300;400;500;600&family=Quicksand:wght@600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-center {
+  height: 10vh;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+.nav-center h4 {
+  color: rgb(120, 179, 199);
+}
+.nav-links {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+main .container {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.container h3 {
+  text-align: center;
+  background-color: black;
+  padding-top: 10px;
+  color: #fff;
+  width: 30rem;
+  height: 4rem;
+  border-radius: 5px;
+}
+#btn {
+  width: 7rem;
+  /* font-weight: 400; */
+  border: 1px solid black;
+  border-radius: 5px solid black;
+}
+.color {
+  color: lightblue;
+  /* word-spacing: 10px; */
+}
